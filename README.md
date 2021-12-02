@@ -3,7 +3,7 @@ AUTOdatb, AUTOdats は分岐解析ツール AUTO の b.XXX や s.XXXX という�
 ## AUTOdatb
 b.XXX ファイルからブランチデータとラベルデータをファイルに書き出します。
 
-`$ AUTOdatb < b.XXX`
+`$ python3 AUTOdatb.py < b.XXX`
 
 - Branch-X-Y-n.csv : ブランチデータ (ただし n はブランチ番号ではありません。）
   - X=S(steady solution),P(periodic solution)
