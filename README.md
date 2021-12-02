@@ -1,6 +1,6 @@
 # AUTOdat
 AUTOdatb, AUTOdats は分岐解析ツール AUTO の b.XXX や s.XXXX という出力ファイルから個別のデータを切り出す script です。
-## AUTOdatb
+## AUTOdatb.py
 b.XXX ファイルからブランチデータとラベルデータをファイルに書き出します。
 
 `$ python3 AUTOdatb.py < b.XXX`
