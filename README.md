@@ -1,11 +1,11 @@
 # AUTOdat
-
+AUTOdatb, AUTOdats は分岐解析ツール AUTO の b.XXX や s.XXXX という出力ファイルから個別のデータを切り出す script です。
 ## AUTOdatb
 b.XXX ファイルからブランチデータとラベルデータをファイルに書き出します。
 
 `$ AUTOdatb < b.XXX`
 
-- Branch-X-Y-n.dat : ブランチデータ (ただし n はブランチ番号ではありません。）
+- Branch-X-Y-n.csv : ブランチデータ (ただし n はブランチ番号ではありません。）
   - X=S(steady solution),P(periodic solution)
   - Y=S(stable), U(unstable)
-- LABEL-n.dat  : ラベル番号 n のデータ
+- LABEL-n.csv  : ラベル番号 n のデータ
